@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kdyf.auth.AzureAD", "kdyf.auth.AzureAD\kdyf.auth.AzureAD.csproj", "{76FB5919-4B9D-48A1-B06C-316E2CC5FB7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76FB5919-4B9D-48A1-B06C-316E2CC5FB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FB5919-4B9D-48A1-B06C-316E2CC5FB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FB5919-4B9D-48A1-B06C-316E2CC5FB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FB5919-4B9D-48A1-B06C-316E2CC5FB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84A4F1D1-AAB3-4D4F-B402-5A67161F5957}
+	EndGlobalSection
+EndGlobal
