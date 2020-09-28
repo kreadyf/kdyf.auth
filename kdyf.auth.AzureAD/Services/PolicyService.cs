@@ -4,6 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
+using kdyf.auth.AzureAd.Core2.Models;
+using Microsoft.Extensions.Options;
 
 namespace kdyf.auth.AzureAD.Services
 {
@@ -21,13 +23,13 @@ namespace kdyf.auth.AzureAD.Services
         /// 
         /// </summary>
         /// <param name="securityGroups"></param>
-        public PolicyService(IEnumerable<SecurityGroup> securityGroups)
+        public PolicyService(IOptions<PolicyServiceSettings> options)
         {
-            _policies = securityGroups;
+            _policies = options.Value.SecurityGroups;
 
             var result = new Dictionary<string, string>();
 
-            foreach (var policyModel in securityGroups)
+            foreach (var policyModel in _policies)
             {
                 foreach (var policy in policyModel.Policies.Split('0'))
                 {

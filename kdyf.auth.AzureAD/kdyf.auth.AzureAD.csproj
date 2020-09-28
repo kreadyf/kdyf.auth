@@ -12,6 +12,7 @@
     <PackageReleaseNotes>Initial release</PackageReleaseNotes>
     <Copyright>2020</Copyright>
     <Authors>kreadyf</Authors>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
